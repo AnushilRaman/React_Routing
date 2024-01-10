@@ -1,7 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <Link to="/"> {new Date().getFullYear()} React Learning</Link>
+    </footer>
   )
 }
